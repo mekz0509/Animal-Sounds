@@ -1,0 +1,36 @@
+.animal-img {
+    cursor: pointer;
+}
+body {
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+#monkey {
+    position: absolute;
+    padding: 0px;
+    top: 215px;
+    left: 950px;
+}
+#birds {
+    position: absolute;
+    top: 10px;
+    right: 800px;
+}
+#elephant {
+    position: absolute;
+    top: 300px;
+    left: 800px;
+}
+#cobra {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+#lion {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
